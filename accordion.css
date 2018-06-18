@@ -1,0 +1,88 @@
+
+.plex-font{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.quicksand-font{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.accordian{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+    border-radius: 10px;
+}
+
+.p-16{
+    font-size: 6vmin;
+    padding: 8px;
+    flex-grow: 1;
+}
+
+.font-white{
+    color: white;
+    text-align: center;
+}
+
+.fas{
+    font-size: 6vmin;
+    color: white;
+    display: block;
+    margin: auto 16px auto 16px;
+}
+
+.fas:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.content{
+    margin-top: 8px;
+    border-radius: 10px;
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+    background-blend-mode: screen;
+    padding: 8px;
+}
+
+.center{
+    font-size: 4vmin;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shadow {
+    -webkit-box-shadow: 2px 2px 4px 5px #ccc;  
+    -moz-box-shadow:    2px 2px 4px 5px #ccc;  
+    box-shadow:         2px 2px 4px 5px #ccc;  
+}
+
+.para-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.head-para{
+    width: 50%;
+}
+
+img{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+@media only screen and (max-width:767px){
+    .accordian{
+        width: 90vw;
+    }
+}
+

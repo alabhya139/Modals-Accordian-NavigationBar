@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Quicksand');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.heading{
+    flex-grow: 1;
+}
+
+.title{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-grow: 1;
+    padding-left: 8px;
+    color: white;
+    font-size: 2vmin;
+}
+
+.fas{
+    display: none;
+    margin: auto 8px auto 8px;
+}
+
+.plex-font{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.quicksand-font{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.inline{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    font-size: 3vmin;
+    color: white;
+    display: inline;
+    margin: 8px;
+    padding: 8px;
+}
+
+li:hover{
+    opacity: 0.5;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.no-gutter{
+    padding: 0;
+    margin: 0;
+}
+
+#toggle-button:hover{
+    cursor: pointer;
+}
+
+.intro{
+    padding: 8px;
+    font-size: 4vmin;
+    color: #09203f;
+    text-align: center;
+}
+
+@media only screen and (max-width:710px){
+    .inline{
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header{
+        flex-direction: column;
+        padding: 8px 0 8px 0;
+    }
+
+    .fas{
+        display: block;
+    }
+}
